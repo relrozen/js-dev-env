@@ -1,7 +1,8 @@
 body {
 	font-family: sans-serif;
+	background-color: red;
 }
 
 table th {
-	padding: 5px;
+	padding: 6px;
 }
