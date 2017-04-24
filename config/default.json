@@ -1,0 +1,7 @@
+{
+  "kafka": {
+    "connectionString": "kafka1:2181,kafka2:2181",
+    "clientId": "platform-messaging-client",
+    "topicName": "platform-messaging"
+  }
+}

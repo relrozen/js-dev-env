@@ -1,0 +1,20 @@
+{
+  "kafka": {
+    "connectionString": "192.168.2.120:2181",
+    "clientId": "platform-messaging-client",
+    "topicName": "platform-messaging"
+  },
+  "etl": {
+	"username": "markets",
+	"password": "QWfw6G9Bnq",
+	"host": "mysql-1.kstt-prod",
+	"db": "markets_customer_db"
+  },
+  "in_platform_messaging": {
+	"username": "root",
+	"password": "",
+	"host": "localhost",
+	"db": "in_platform_messaging"
+  }
+
+}
