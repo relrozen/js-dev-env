@@ -1,0 +1,22 @@
+{
+  "redis": {
+    "port": 6379,
+    "host": "192.168.2.127",
+    "url": "redis://192.168.2.127:6379/1"
+  },
+  "kafka": {
+    "connectionString": "192.168.2.120:2181",
+    "clientId": "platform-messaging-client",
+    "topicName": "platform-messaging"
+  },
+  "minutesBetweenMessages": 0.1,
+  "encryption": {
+    "key":"V@m0$2016!"
+  },
+  "in_platform_messaging": {
+	"username": "root",
+	"password": "",
+	"host": "localhost",
+	"db": "in_platform_messaging"
+  }
+}

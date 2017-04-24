@@ -1,0 +1,63 @@
+<div class="ipm-alert-wrapper">
+	<div class="ipm-alert">
+		<div class="ipm-settings"></div>
+		<div class="ipm-info"></div>
+		<div class="ipm-close"></div>
+		<div class="ipm-trend-alert">{{TRADE_ALERT}}</div>
+		<div class="ipm-inst-name" style="font-size:__INSTRUMNET_FONT_SIZE__">__INSTRUMENT__</div>
+		<div class="ipm-current-price-wrapper">
+			<div class="ipm-current-price-title">{{CURRENT_PRICE}}</div>
+			<div class="ipm-current-price __COLOR__">__CURRENT_PRICE__</div>
+			<div class="ipm-change-percent __COLOR__">(__DAILY_CHANGE__%</div>
+			<div class="ipm-arrow-up" style="display:__UP_ARROW_DISPLAY__"></div>
+			<div class="ipm-arrow-down" style="display:__DOWN_ARROW_DISPLAY__"></div>
+			<div class="ipm-close-parent __COLOR__">)</div>
+		</div>
+		<div class="ipm-separator"></div>
+		<div class="ipm-sentiment-text" style="display:__BUYING_TEXT_DISPLAY__">{{PERCENT_OF_ALL_MARKETS_TRADERS_ARE_BUYING_INSTRUMENT}}</div>
+		<div class="ipm-sentiment-text" style="display:__SELLING_TEXT_DISPLAY__">{{PERCENT_OF_ALL_MARKETS_TRADERS_ARE_SELLING_INSTRUMENT}}</div>
+		<div class="ipm-sentiment-green">
+			<div class="ipm-sentiment-red" style="width:__PERCENT_SELLING__%"></div>
+		</div>
+		<div class="ipm-selling-percent">{{PERCENT_SELLING}}</div>
+		<div class="ipm-buying-percent">{{PERCENT_BUYING}}</div>
+		<div class="ipm-btn-1">{{TRADE_INSTRUMENT}}</div>
+		<div class="ipm-disclaimer">{{FOR_INFO_PURPOSES_ONLY_AND_SHOULD_NOT_BE_CONSIDERED_AS_INVESTMENT_ADVICE}}</div>
+	</div>
+	<div class="ipm-settings-wrapper">
+		<div class="ipm-settings-title">{{TRADING_ALERTS_SETTINGS}}</div>
+		<div class="ipm-settings-separator"></div>
+		<div class="ipm-dont-show-title">{{DONT_SHOW_FOR}}</div>
+		<div class="ipm-options-holder">
+			<div class="ipm-option-holder">
+				<input type="radio" name="ipm-opt-out" id="ipm-settings-opt-1" value="1">
+				<label class="ipm-setting-option" for="ipm-settings-opt-1">{{ONE_DAY}}</label>
+			</div>
+			<div class="ipm-option-holder">
+				<input type="radio" name="ipm-opt-out" id="ipm-settings-opt-2" value="2">
+				<label class="ipm-setting-option" for="ipm-settings-opt-2">{{ONE_WEEK}}</label>
+			</div>
+			<div class="ipm-option-holder">
+				<input type="radio" name="ipm-opt-out" id="ipm-settings-opt-3" value="3">
+				<label class="ipm-setting-option" for="ipm-settings-opt-3">{{ONE_MONTH}}</label>
+			</div>
+			<div class="ipm-option-holder">
+				<input type="radio" name="ipm-opt-out" id="ipm-settings-opt-4" value="4">
+				<label class="ipm-setting-option" for="ipm-settings-opt-4">{{TWO_MONTH}}</label>
+			</div>
+		</div>
+		<div class="ipm-save-cancel">
+			<div class="ipm-save-settings">{{SAVE_SETTINGS}}</div>
+			<div class="ipm-cancel-settings">{{CANCEL}}</div>
+		</div>
+	</div>
+	<div class="ipm-whats-this-wrapper">
+		<div class="ipm-whats-this-title">{{WHATS_THIS}}</div>
+		<div class="ipm-whats-this-separator"></div>
+		<div class="ipm-what-this-text">
+			{{TRADE_ALERTS_ARE_AUTOMATICALLY_GENERATED}}
+			{{TO_OPT_OUT_PLEASE_VISIT_THE_SETTINGS_SECTION}}
+		</div>
+		<div class="ipm-what-this-got-it">{{GOT_IT}}</div>
+	</div>
+</div>

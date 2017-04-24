@@ -1,0 +1,12 @@
+{
+  "kafka": {
+    "connectionString": "kafka1:2181,kafka2:2181",
+    "clientId": "platform-messaging-client",
+    "topicName": "platform-messaging"
+  },
+  "redis": {
+    "port": 6379,
+    "host": "vamos-redis-1",
+    "url": "redis://vamos-redis-1:6379/1"
+  }
+}

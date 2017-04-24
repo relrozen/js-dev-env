@@ -1,0 +1,62 @@
+{
+  "TRADE_ALERT": {
+	"en": "Trade Alert"
+  },
+  "CURRENT_PRICE": {
+	"en": "Current price:"
+  },
+  "PERCENT_OF_ALL_MARKETS_TRADERS_ARE_BUYING_INSTRUMENT": {
+	"en": "<span class='green'>__PERCENT_BUYING__% </span>of all Markets.com traders are buying __INSTRUMENT__"
+  },
+  "PERCENT_OF_ALL_MARKETS_TRADERS_ARE_SELLING_INSTRUMENT": {
+	"en": "<span class='red'>__PERCENT_SELLING__% </span>of all Markets.com traders are selling __INSTRUMENT__"
+  },
+  "PERCENT_SELLING": {
+	"en": "__PERCENT_SELLING__% Selling"
+  },
+  "PERCENT_BUYING": {
+	"en": "__PERCENT_BUYING__% Buying"
+  },
+  "TRADE_INSTRUMENT": {
+	"en": "Trade __INSTRUMENT__"
+  },
+  "FOR_INFO_PURPOSES_ONLY_AND_SHOULD_NOT_BE_CONSIDERED_AS_INVESTMENT_ADVICE": {
+	"en": "For information purposes only and should not be considered as investment advice"
+  },
+  "TRADING_ALERTS_SETTINGS": {
+	"en": "Trading alerts settings"
+  },
+  "DONT_SHOW_FOR": {
+	"en": "Don't show for:"
+  },
+  "ONE_DAY": {
+	"en": "One day"
+  },
+  "ONE_WEEK": {
+	"en": "One week"
+  },
+  "ONE_MONTH": {
+	"en": "One month"
+  },
+  "TWO_MONTH": {
+	"en": "Two months"
+  },
+  "SAVE_SETTINGS": {
+	"en": "Save settings"
+  },
+  "CANCEL": {
+	"en": "Cancel"
+  },
+  "WHATS_THIS": {
+	"en": "What's this?"
+  },
+  "TRADE_ALERTS_ARE_AUTOMATICALLY_GENERATED": {
+	"en": "Trade Alerts are automatically generated and displayed to all customers based on market behaviour and volatility."
+  },
+  "TO_OPT_OUT_PLEASE_VISIT_THE_SETTINGS_SECTION": {
+	"en": "To opt-out please visit the <span>Settings</span> section."
+  },
+  "GOT_IT": {
+	"en": "Got it"
+  }
+}
