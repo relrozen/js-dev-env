@@ -32,7 +32,7 @@ export default {
 
 		// Create HTML file that includes reference to bundled JS.
 		new HtmlWebpackPlugin({
-			template: 'src/index.html',
+			template: 'src/example.html',
 			minify: {
 				removeComments: true,
 				collapseWhitespace: true,
@@ -57,8 +57,7 @@ export default {
 	module: {
 		loaders: [
 			{ test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-			// { test: /\.css$/, loaders: ['style', 'css'] }
-			{test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')}
+			{ test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')}
 		]
 	}
 }
