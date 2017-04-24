@@ -6,7 +6,7 @@ export default {
 	devtool: 'inline-source-map',
 	noInfo: false,
 	entry: [
-		path.resolve(__dirname, 'src/index')
+		path.resolve(__dirname, 'src/example')
 	],
 	target: 'web',
 	output: {
@@ -15,16 +15,16 @@ export default {
 		filename: 'bundle.js'
 	},
 	plugins: [
+
 		// Create HTML file that includes reference to bundled JS.
 		new HtmlWebpackPlugin({
-			template: 'src/index.html',
+			template: 'src/example.html',
 			inject: true
 		})
 	],
 	module: {
 		loaders: [
-			{test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-			{test: /\.css$/, loaders: ['style','css']}
+			{test: /\.js$/, exclude: /node_modules/, loaders: ['babel']}
 		]
 	}
 }

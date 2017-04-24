@@ -1,7 +1,7 @@
 {
-  "name": "javascript-development-environment",
+  "name": "messaging-manager",
   "version": "1.0.0",
-  "description": "JavaScript development environment",
+  "description": "Responsible for reading messages from Kafka and sending them to corresponding client",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel lint:watch test:watch open:src",
@@ -25,10 +25,13 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "camelcase": "^4.1.0",
     "config": "^1.25.1",
     "kafka-node": "^1.6.0",
     "lodash": "^4.17.4",
     "mysql": "^2.13.0",
+    "snake-case": "^2.1.0",
+    "socket.io": "^1.7.3",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {

@@ -4,6 +4,8 @@
  and rapid page loads due to local, static data.
  */
 
+/* eslint-disable no-console */
+
 var jsf = require('json-schema-faker');
 var mockDataSchema = require('./mockDataSchema');
 var fs = require('fs');

@@ -10,11 +10,13 @@
 	"host": "mysql-1.kstt-prod",
 	"db": "markets_customer_db"
   },
+  "encryption": {
+    "key":"V@m0$2016!"
+  },
   "in_platform_messaging": {
 	"username": "root",
 	"password": "",
 	"host": "localhost",
 	"db": "in_platform_messaging"
   }
-
 }
